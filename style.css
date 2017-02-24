@@ -1,0 +1,61 @@
+
+*{padding:0;margin:0;font-size: 62.5%}
+body{
+	text-align:center
+}
+.nums{
+	text-align: center;
+	font-size: 2.4rem;
+	line-height: 4rem;
+}
+.nums span{
+	font-size: 2.6rem;
+	color: red;
+	display: inline-block;
+	margin: 0 .2rem;
+}
+.ly-plate{
+	position:relative;
+	width: 22rem;
+	height: 22rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+.rotate-bg{
+	width: 22rem;
+	height: 22rem;
+	background:url(ly-plate.png);
+	background-size: 100% 100%;
+	position:absolute;
+	top:0;
+	left:0
+}
+.ly-plate div.lottery-star{
+	width:10rem;
+	height:10rem;
+	position:absolute;
+	top:6rem;
+	left:6rem;
+	/*text-indent:-999em;
+	overflow:hidden;
+	background:url(rotate-static.png);
+	-webkit-transform:rotate(0deg);*/
+	outline:none
+}
+.ly-plate div.lottery-star img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.ly-plate div.lottery-star span{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	border-radius: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.1)
+}
